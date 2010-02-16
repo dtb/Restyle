@@ -1,0 +1,218 @@
+<html>
+	<head>
+		<title>CSS Framework Demo</title>
+		<style type="text/css">
+			/*
+			* RESET
+			*/
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, font, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				outline: 0;
+				font-weight: inherit;
+				font-style: inherit;
+				font-size: 100%;
+				font-family: inherit;
+				vertical-align: baseline;
+			}
+			/* remember to define focus styles! */
+			:focus {
+				outline: 0;
+			}
+			body {
+				line-height: 1;
+				color: black;
+				background: white;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			/* tables still need 'cellspacing="0"' in the markup */
+			table {
+				border-collapse: separate;
+				border-spacing: 0;
+			}
+			caption, th, td {
+				text-align: left;
+				font-weight: normal;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: "";
+			}
+			blockquote, q {
+				quotes: "" "";
+			}
+			/*
+			* Layout
+			*/
+			body {
+				margin:5px 10px;
+			}
+			h1,h2,h3,h4,h5,h6 {
+				margin:16px 0 8px 0; 
+			}
+			p, ul, ol, dl {
+				margin:1em 0;
+			}
+			blockquote{
+				margin: 10px 20px;
+			}
+			
+			/*
+			* Lists
+			*/
+			ul, ol {
+				padding-left:20px;
+			}
+			ul {
+				list-style-type: circle;
+			}
+			ol {
+				list-style-type: decimal;
+			}
+			dd {
+				margin-left:20px;
+			}
+			
+			/*
+			* basic typography
+			*/
+			body {
+				font-size:100%;
+				line-height:1.125em;
+			}
+			body>*{
+				font-size:.875em;/* .875*16px=14px font-size:100% corresponds to 16px*/
+			}
+			h1{
+				font-size:2em;
+			}
+			h2{
+				font-size:1.8em;
+			}
+			h3{
+				font-size:1.5em;
+			}
+			h4 {
+				font-size:1.2em;
+			}
+			h5, h6 {
+				font-size:1.1em;
+			}
+			/*
+			* semantic inline elements
+			*/
+			abbr,acronym {
+				border-bottom: 1px dotted #AAA;
+			}
+			sub{
+				vertical-align: sub;
+				font-size:.5em;
+			}
+			sup{
+				vertical-align: super;
+				font-size:.5em;
+			}
+			pre, code{
+				font-family: monospace;
+			} 
+			/*
+			* Semantic elements and their equivalents
+			*/
+			s, del{
+				text-decoration: line-through;
+			} 
+			i, em{
+				font-style: italic;
+			} 
+			b, strong{
+				font-weight: bold;
+			}
+			/*
+			* Non-semantic elements
+			*/
+			small {
+				font-size:.8em;
+			}
+			big {
+				font-size:1.2em;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>h1. One Thousand Secrets of Wise and Rich Men Revealed</h1>
+		<h2>h2. Poisons and their antidotes</h2>
+		<p>
+			When <abbr title="Those Human Elephants">the</abbr> student wishes to 
+			<em>go farther</em> and <strong>attack larger</strong> problems than
+			the simple<sup>2</sup> binding<sub>2</sub> of two facts together, there is little in Loisette's
+			system that is new, <acronym title="complex">although</acronym> there is much that is good. If it is <a href="http://www.gutenberg.org/catalog/world/readfile?fk_files=915101&pageno=1">a
+			book</a> that is to be learned, as one would prepare for an examination,
+			each chapter is to be considered separately. 
+		</p>
+		<blockquote>	
+			Of each a <em>precis</em> is
+			to be written in which the writer must exercise all of his ingenuity to
+			reduce the matter in hand to its final skeleton of fact. This he is to
+			commit to memory both by the use of the chain and the old system of
+			interrogation. 
+		</blockquote>
+		<h3>h3. A minor section</h3>
+		<p>
+			As a rule give emetics after poisons that cause sleepiness and raving;
+			chalk, milk, eggs, butter and warm water, or oil, after poisons that
+			cause vomiting and pain in the stomach and bowels, with purging; and
+			when there is no inflammation about the throat, tickle it with a
+			feather to excite vomiting.
+		</p>
+		<h4>h4. A sub-subsection</h4>
+		<ul>
+			<li>Yale students criticised</li>
+			<li>The "Sun" defends the Yale students</li>
+			<li>The Assyrian came down like a wolf on the fold</li>
+		</ul>
+		<ol>
+			<li>Yale students criticised</li>
+			<li>The "Sun" defends the Yale students</li>
+			<li>The Assyrian came down like a wolf on the fold</li>
+		</ol>
+		<h5>h5. The lists</h5>
+		<dl>
+			<dt>Opium and Other Narcotics.</dt>
+			<dd>After vomiting has occurred, cold water
+			should be <strong>dashed</strong> over the face and head.
+			<em>Belladonna</em> is an antidote for opium and for morphia, etc.,
+			its active principles;</dd>
+			<dt>Strychnia.</dt>
+			<dd>After emetics have been freely and successfully given,
+			the patient should be allowed to breathe the vapor of sulphuric ether,
+			poured on a handkerchief and held to the face.</dd>
+			
+			<dt>Alcoholic Poisoning</dt> 
+			<dd>Combat with emetics, of which the
+			sulphate of zinc given as above directed, is the best. After that,
+			strong coffee internally, and stimulation by heat externally, should be
+			used.</dd>
+		</dl>
+		<h6>h6. Some <code>code</code></h6>
+		<pre>
+public function down() 
+{
+	$this->drop_table('roles');
+
+	$this->drop_table('roles_users');
+
+	$this->drop_table('users');
+}
+		</pre>
+	</body>
+</html>
