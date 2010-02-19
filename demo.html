@@ -23,10 +23,6 @@
 				font-family: inherit;
 				vertical-align: baseline;
 			}
-			/* remember to define focus styles! */
-			:focus {
-				outline: 0;
-			}
 			body {
 				line-height: 1;
 				color: black;
@@ -58,29 +54,27 @@
 				margin:5px 10px;
 			}
 			h1,h2,h3,h4,h5,h6 {
-				margin:16px 0 8px 0; 
+				margin:.5em 0 .25em 0; 
+				line-height:1;
 			}
 			p, ul, ol, dl {
-				margin:1em 0;
+				margin:.2em 0 1em 0;
 			}
 			blockquote{
-				margin: 10px 20px;
+				margin: .75em 1.3em;
 			}
 			
 			/*
 			* Lists
 			*/
-			ul, ol {
-				padding-left:20px;
-			}
 			ul {
 				list-style-type: circle;
 			}
 			ol {
 				list-style-type: decimal;
 			}
-			dd {
-				margin-left:20px;
+			li, dd {
+				margin-left:1.3em;
 			}
 			
 			/*
@@ -94,19 +88,16 @@
 				font-size:.875em;/* .875*16px=14px font-size:100% corresponds to 16px*/
 			}
 			h1{
-				font-size:2em;
+				font-size:1.3em;
 			}
 			h2{
-				font-size:1.8em;
-			}
-			h3{
-				font-size:1.5em;
-			}
-			h4 {
 				font-size:1.2em;
 			}
-			h5, h6 {
+			h3{
 				font-size:1.1em;
+			}
+			h4 {
+				font-size:1em;
 			}
 			/*
 			* semantic inline elements
@@ -124,6 +115,7 @@
 			}
 			pre, code{
 				font-family: monospace;
+				white-space: pre;
 			} 
 			/*
 			* Semantic elements and their equivalents
@@ -131,11 +123,14 @@
 			s, del{
 				text-decoration: line-through;
 			} 
-			i, em{
+			i, em, cite, dfn{
 				font-style: italic;
 			} 
-			b, strong{
+			b, strong, th{
 				font-weight: bold;
+			}
+			ins, u {
+				text-decoration: underline;
 			}
 			/*
 			* Non-semantic elements

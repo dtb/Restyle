@@ -16,7 +16,9 @@ Fed up with this, I decided to create a stylesheet that would first reset browse
 
 1. Tripoli disables deprecated HTML elements via CSS. I'm all for standards, but my goal is to apply sensible default styles informed by the principle of least surprise, not try to use a stylesheet as a platform my opinions. 
 2. Tripoli also uses browser hacks to achieve greater compatibility with older browsers, which is something I always try to avoid (mostly by not supporting older browsers). 
-3. Tripoli applies some of its styles by looking for an element with class `content`. I wanted to avoid making any stipulations about the nature of your markup
+3. Tripoli applies some of its styles by looking for an element with class `content`. I wanted to avoid making any stipulations about the nature of your markup.
+
+
 
 [sr-home]: http://sixrevisions.com/
 [reset-intro]: http://sixrevisions.com/css/css-tips/css-tip-1-resetting-your-styles-with-css-reset/
