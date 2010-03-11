@@ -89,6 +89,7 @@
 			body {
 				font-size:100%;
 				line-height:1.125em;
+				font-family:sans-serif;
 			}
 			body>*{
 				font-size:.875em;/* .875*16px=14px font-size:100% corresponds to 16px*/
@@ -113,19 +114,19 @@
 			}
 			sub{
 				vertical-align: sub;
-				font-size:.5em;
+				font-size:.8em;
 			}
 			sup{
 				vertical-align: super;
-				font-size:.5em;
+				font-size:.8em;
 			}
-			samp, var, pre, code{
-				font-family: monospace;
-				white-space: pre;
-			} 
 			/*
 			* Semantic elements and their equivalents
 			*/
+			samp, var, pre, code, tt{
+				font-family: monospace;
+				white-space: pre;
+			} 
 			s, del{
 				text-decoration: line-through;
 			} 
@@ -142,20 +143,19 @@
 			* Non-semantic elements
 			*/
 			small {
-				font-size:.8em;
+				font-size:.7em;
 			}
 			big {
-				font-size:1.2em;
+				font-size:1.3em;
 			}
 		</style>
 </head> 
-<body> 
-<hr> 
+<body>
+<h1>Level 1 heading</h1> 
 <!-- begin sample HTML --> 
-<p>Sed scelerisque sagittis lorem <span class="alt">&amp;</span> phasellus sodales. Nulla urna justo, vehicula in, suscipit nec, molestie sed, tellus. Quisque justo. Nam libero leo, elementum in, dapibus a, suscipit vitae, purus. Duis arcu. Integer dignissim fermentum enim. Morbi convallis felis vel nibh. Etiam viverra augue non enim.</p> 
+<p>Sed scelerisque sagittis lorem &amp; phasellus sodales. Nulla urna justo, vehicula in, suscipit nec, molestie sed, tellus. Quisque justo. Nam libero leo, elementum in, dapibus a, suscipit vitae, purus. Duis arcu. Integer dignissim fermentum enim. Morbi convallis felis vel nibh. Etiam viverra augue non enim.</p> 
  
-<h1><span class="dquo">&#8220;</span>Level 1 heading&#8221;</h1> 
-<p>Sed scelerisque sagittis lorem. Phasellus sodales. Nulla urna justo, vehicula in, suscipit nec, molestie sed, tellus. Quisque justo. Nam libero leo, elementum in, dapibus a, suscipit vitae, purus. Duis arcu. Integer dignissim fermentum enim. Morbi convallis felis vel nibh. Etiam viverra augue non enim.</p> 
+<p>Sed scelerisque sagittis lorem. Phasellus sodales. Nulla urna justo, vehicula in, suscipit nec, molestie sed, tellus. Quisque justo. Nam libero leo, elementum in, dapibus a, suscipit vitae, purus. Duis arcu. Integer dignissim fermentum enim. Morbi convallis felis vel nibh. Etiam viverra augue non enim. Sed scelerisque sagittis lorem &amp; phasellus sodales. Nulla urna justo, vehicula in, suscipit nec, molestie sed, tellus. Quisque justo. Nam libero leo, elementum in, dapibus a, suscipit vitae, purus. Duis arcu. Integer dignissim fermentum enim. Morbi convallis felis vel nibh. Etiam viverra augue non enim. Sed scelerisque sagittis lorem &amp; phasellus sodales. Nulla urna justo, vehicula in, suscipit nec, molestie sed, tellus. Quisque justo. Nam libero leo, elementum in, dapibus a, suscipit vitae, purus. Duis arcu. Integer dignissim fermentum enim. Morbi convallis felis vel nibh. Etiam viverra augue non enim.</p> 
 <p>Sed scelerisque sagittis lorem. Phasellus sodales. Nulla urna justo, vehicula in, suscipit nec, molestie sed, tellus. Quisque justo. Nam libero leo, elementum in, dapibus a, suscipit vitae, purus. Duis arcu. Integer dignissim fermentum enim. Morbi convallis felis vel nibh. Etiam viverra augue non enim.</p> 
  
 <h2>Level 02 Heading</h2> 
@@ -216,6 +216,7 @@ I am <tt>the tt tag</tt> example<br />
 I am <var>the var tag</var> example<br /> 
  
 I am <u>the u tag</u> example
+<center>I am centered!</center>
 </p> 
 <hr> 
 <ul> 
