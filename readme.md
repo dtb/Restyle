@@ -13,5 +13,5 @@ ReStyle is available under the BSD License. For more information about my motiva
 [13]: http://www.alistapart.com/articles/howtosizetextincss/
 [14]: http://www.alistapart.com/articles/settingtypeontheweb/
 [15]: http://www.undermyhat.org/blog/2009/09/css-font-family-monospace-renders-inconsistently-in-firefox-and-chrome/
-[16]: 
+[16]: http://davidthomasbernal.com/blog/2010/01/14/introducing-restyle-a-minimal-css-framework/
 [demo]: http://davidthomasbernal.com/wp-content/uploads/2010/05/demo.html
