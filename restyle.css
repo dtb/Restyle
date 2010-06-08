@@ -33,6 +33,9 @@ ol {
 ul, ol {
 	padding-left:2em;
 }
+ul ul, ol ul {
+	margin-top:.2em;
+}
 dd {
 	margin-left:1.3em;
 }
